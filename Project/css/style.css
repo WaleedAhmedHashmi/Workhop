@@ -1,0 +1,216 @@
+html{
+    scroll-behavior: smooth;
+}
+#header{
+  background: #ffcc01;
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;    
+}
+ 
+    .container {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+          
+    }
+    #header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  
+  .image {
+    opacity: 0.1;
+    display: block;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+      backface-visibility: hidden;
+      
+}
+
+.overlay {
+    transition: all .1s ease;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    opacity: 0;
+  }
+  .container:hover .overlay {
+     opacity: 0.2;
+    
+  }
+  
+  .text{
+     
+     color: black;   
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.h3 {
+    text-align: center;
+    color: black;   
+   font-size: 30px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.overlayLeft{
+      height: 100%;
+       width: 100%;
+       top: 0;
+       left: 0;
+    }  
+    .icon-wrapper{
+        background-color: white;
+        position: relative;
+        border-radius: 50%;
+        height: 2.7em;
+        width: 2.7em;
+         margin: auto;
+         display: grid;
+         place-items: center;
+         transition: 0.5s;
+         color: yellow;
+        font-size: 30px;
+    }
+    .card:hover .icon-wrapper{
+        background-color:rgb(248, 248, 41);
+        color: white;
+    }
+  
+.fluid{
+    padding-top: 180px;
+    padding-left: 30px;
+     
+}
+.content{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.card-image{
+    position: relative;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgb(255, 255, 0);
+      
+}
+
+.card:hover .image-overlay {
+    opacity: 0.4;
+  }
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background:  rgba(0, 0, 0, 0.411);
+    padding-top: 100px;  
+    
+}
+
+.card:hover .card-overlay {
+    opacity: 0.4;
+  }
+  #card1:hover{
+    background-color: yellow;
+    background-position: 50%;
+      opacity: 0.4;
+}
+#button{
+    text-align: center;
+    margin-left: -260px;
+    padding-left: 20px;
+    
+}
+#card:hover{
+    background-color: yellow;
+    margin-left: 4px;
+     
+}
+.img2{
+    padding-top: 50px;    
+    height: 15rem;
+}
+.container{
+    margin-top: 200px;
+}
+#work{
+    padding-top: 80px;
+     padding-left: 30px;
+}
+#blog{
+     padding-top: 80px;
+    padding-left: 90px;
+}
+#about{
+    padding-left: 70px;
+}
+#contact{
+    padding-top: 240px;
+    padding-left: 90px;
+    
+}
+
+#card2:hover{
+       background-color: yellow;
+}
+#container1{
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;       
+
+}
+
+#myHeader{
+    padding-left: 520px;
+    margin-top: -350px;
+    
+}
+#bet{
+    position: fixed; 
+    bottom: 20px; 
+    right:  150px; 
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #55555511; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+        
+}
+  
+  
+#footer{
+    padding-top: 30px;
+    width: 95%;
+     padding-left: -20px;
+}
